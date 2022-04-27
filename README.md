@@ -1,6 +1,6 @@
 # 智慧树自动刷课脚本
 
-## 源代码
+## 代码
 ```js
 setInterval(function () {
     if (document.getElementsByClassName('bigPlayButton pointer')[0].style.display == 'block') {//用于检测答题弹窗是否出现，并将其关闭
@@ -28,7 +28,7 @@ setInterval(function () {
 ## 使用方法
 只能在电脑的主流浏览器(chrome, msedge, firefox, safari等)上使用, 因为需要打开浏览器的开发者工具
 
-以msedge为例, 复制上面的源代码, 打开智慧树课程网页, 右键空白区域, 点击`检查`
+以msedge为例, 复制上面的代码, 打开智慧树课程网页, 右键空白区域, 点击`检查`
 
 ![点击检查](1.png)
 
